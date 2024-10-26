@@ -1,6 +1,10 @@
 ---
 title: "30538 Problem Set 3: git pair"
+
+author: "Tarini Dewan"
+
 author: "Sijie Wu"
+
 format: 
   pdf:
     keep-tex: true
@@ -28,11 +32,10 @@ data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
     head_of_df = df.head()
-    histogram_plot = alt.Chart(df).mark_bar().encode( alt.X('Random Numbers', bin=alt.Bin(maxbins=30)), y='count()' )
-    return [head_of_df, histogram_plot]
-
-result = preview_data(data)
-
-print(result[0])
-result[1].display()
+    description_of_df = df.describe()
+    histogram_plot = alt.Chart(df).mark_bar().encode(
+        alt.X('Random Numbers', bin=alt.Bin(maxbins=30)),
+        y='count()'
+    )
+    return [head_of_df, description_of_df, histogram_plot]
 ```
