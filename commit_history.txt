@@ -1,0 +1,11 @@
+32bbf8f - tarinidewan, 12 minutes ago : Merge pull request #5 from tarinidewan/histogram
+3ce3678 - tarinidewan, 13 minutes ago : Merge branch 'main' into histogram
+adfd571 - Sijie, 15 minutes ago : Merge pull request #4 from tarinidewan/describe
+378161d - sijiewu12, 16 minutes ago : add histogram
+94f77ff - tarinidewan, 20 minutes ago : modify function by partner 2
+1153520 - Sijie, 22 minutes ago : Merge pull request #2 from tarinidewan/merge_conflict_name_2
+cfc93cd - Sijie, 22 minutes ago : Merge branch 'main' into merge_conflict_name_2
+7976a0e - tarinidewan, 24 minutes ago : Merge pull request #1 from tarinidewan/merge_conflict_name_1
+43bff59 - tarinidewan, 25 minutes ago : change name to partner 2
+5423c77 - sijiewu12, 26 minutes ago : Change name parter 1
+670bdf6 - tarinidewan, 32 minutes ago : Add files via upload
